@@ -1,0 +1,16 @@
+  316  ls -r | grep gcc | cd ~ | cd week1 > ex1.txt
+  317  ls -r | grep gcc 
+  318  cd bin
+  319  ls -r | grep gcc
+  320  ls
+  321  cd..
+  322  cd..
+  323  cd ..
+  324  cd ..
+  325  cd /usr/bin
+  326  ls -r | grep gcc
+  327  ls -r | grep gcc  >~/week1/ex1.txt
+  328  cd ~/week1
+  329  ls
+  330  history -r
+  331  history
