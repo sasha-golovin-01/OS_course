@@ -1,0 +1,3 @@
+Physical address is a real adress of data slot that exists in reality, inbphysical memory, while virtual address is a pointer to memory space which OS allows to process to work.
+
+Virtual memory capacity is usually larger in comparison with the hardware memory, because VA is mapped to the PAs dynamically in RAM.
