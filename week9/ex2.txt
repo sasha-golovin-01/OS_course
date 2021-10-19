@@ -1,0 +1,4 @@
+
+Hit/Miss rate approaches maximum in case we touch one single page every time like 1 1 1 1 1 1 1.
+
+On the other hand, Hit/miss rate approaches minimum in case we refer to non-repeating pages with following ids (for instance 1 2 3 4 5 6 7).
