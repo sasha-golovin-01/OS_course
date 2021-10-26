@@ -1,0 +1,4 @@
+all links to the file.txt:
+../week10/week10/_ex2.txt
+../week10/week01/file.txt
+removement...

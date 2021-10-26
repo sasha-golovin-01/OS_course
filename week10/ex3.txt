@@ -1,0 +1,19 @@
+-rw-r--r--@ 1 sasha  staff  36 Oct 26 23:10 _ex3.txt
+-rwxr--rwx@ 1 sasha  staff  36 Oct 26 23:10 _ex3.txt
+-rwxrwxrwx@ 1 sasha  staff  36 Oct 26 23:10 _ex3.txt
+Permission trials: 
+-rw-rw----@ 1 sasha  staff  36 Oct 26 23:10 _ex3.txt
+
+Here chmod 660 means that permissions set as following:
+user/owner and group can only read and write, without execution, others can not do anything
+
+-rwxrwxr-x@ 1 sasha  staff  36 Oct 26 23:10 _ex3.txt
+
+Here chmod 775 means that permissions were set as:
+user/owner and group can do anything: read, write and excecute
+while others can read/excecute, but still can not write
+
+-rwxrwxrwx@ 1 sasha  staff  36 Oct 26 23:10 _ex3.txt
+
+Here chmod 777 means that permissions were set in the following way:
+user/owner, group and others can do any of 3 actions: read, write and excecute
