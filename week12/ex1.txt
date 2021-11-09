@@ -1,0 +1,48 @@
+0000-0cf7 : PCI Bus 0000:00
+0000-001f : dma1                   //this is controller for direct memory access
+0020-0021 : pic1                   //this is peripherical interface controller
+0040-0043 : timer0
+0050-0053 : timer1                 //this is 16-bit timer/counter
+0060-0060 : keyboard
+0064-0064 : keyboard
+0070-0071 : rtc0
+0080-008f : dma page reg
+00a0-00a1 : pic2
+00c0-00df : dma2
+00f0-00ff : fpu
+0170-0177 : 0000:00:0f.1
+  0170-0177 : pata_via
+01f0-01f7 : 0000:00:0f.1
+  01f0-01f7 : pata_via
+0290-0297 : pnp 00:07
+02f8-02ff : serial
+0376-0376 : 0000:00:0f.1
+  0376-0376 : pata_via
+0378-037a : parport0
+037b-037f : parport0
+03e0-03e7 : pnp 00:08
+03f2-03f2 : floppy
+03f4-03f5 : floppy
+03f6-03f6 : 0000:00:0f.1
+  03f6-03f6 : pata_via
+03f7-03f7 : floppy
+0400-041f : pnp 00:08
+  0400-0407 : vt596_smbus
+04d0-04d1 : pnp 00:08
+0778-077a : parport0
+0800-087f : pnp 00:08
+  0800-0803 : ACPI PM1a_EVT_BLK
+  0804-0805 : ACPI PM1a_CNT_BLK
+  0808-080b : ACPI PM_TMR
+  0810-0815 : ACPI CPU throttle
+  0820-0823 : ACPI GPE0_BLK
+0cf8-0cff : PCI conf1
+d000-d0ff : 0000:00:11.5
+  d000-d0ff : VIA8237
+d400-d41f : 0000:00:10.3
+  d400-d41f : uhci_hcd
+d480-d49f : 0000:00:10.2
+  d480-d49f : uhci_hcd
+d800-d81f : 0000:00:10.1
+  d800-d81f : uhci_hcd
+d880-d89f : 0000:00:10.0
