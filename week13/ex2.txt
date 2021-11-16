@@ -1,0 +1,14 @@
+
+EX2
+__________________________________________________________________________________________________
+RECOVERY: 
+If you're aiming either to kill the process or free up the resources (but still you can't apply it in batch/realtime systems), the method is seems to be the most applicable one.
+
+__________________________________________________________________________________________________
+PREVENTION:
+if we are able to obtain in advance requests from processes that will not change during the time, the problem of planning seems like it can be implemented and then, the method is seems to be the most applicable one.
+
+__________________________________________________________________________________________________
+AVOIDING:
+Banker's algorithm is used when we obtain new requests of resources and at the same time dynamically make right decisions which will not let deadlocks to occur. This method is seems to be the most applicable one.for interactive systems.
+
